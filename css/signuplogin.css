@@ -1,0 +1,101 @@
+/* sign up & login*/
+.signup {
+    background-color: navy;
+    color: white;
+    border-radius: 8px;
+    height: 25px;
+    width: 100px;
+    font-size: 18px;
+    margin-right: 10px;
+    }
+  .log{
+        background-color: navy;
+        color: white;
+        border-radius: 8px;
+        height: 25px;
+        width: 100px;
+        font-size: 18px;
+        margin-right: 10px;
+        
+    }
+    .sign a:hover {
+        color: white;
+        transition: 0.5s;
+        opacity: 0.7;
+    }
+    .login a:hover {
+        color: white;
+        transition: 0.5s;
+        opacity: 0.7;
+    }
+    /* sign up page*/
+    body{
+        background-color:#344a72; 
+    }
+    .signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    }
+    .login-box{
+        width: 360px;
+        height: 400px;
+        margin: auto;
+        border-radius: 3px;
+        background-color:white ;
+    }
+    h1{
+        text-align: center;
+        padding-top: 15px;
+    }
+    h4{
+        text-align: center;
+    }
+    form{
+        width: 300px;
+        margin-right: 20px;
+        height: 430px;
+    }
+    form label{
+        display:flex;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+    }
+    input[type="button"]{
+        width: 320px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(76, 139, 178);
+        color: white;
+        font-size: 18px;
+    }
+    p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .para-2{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .para-2 a{
+        color: rgb(76, 139, 178);
+    }
+    img{
+        margin-right: 110px;
+        width: 100px;
+        height: 100px;
+    }

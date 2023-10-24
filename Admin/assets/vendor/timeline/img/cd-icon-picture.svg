@@ -1,0 +1,20 @@
+ 
+    $(function() {
+            "use strict";
+        if ($('#sparkline1').length) {
+            $("#sparkline1").sparkline([5, 6, 7, 8, 9, 6, 8, 10], {
+                type: 'bar',
+                height: '50',
+                barWidth: 10,
+                barSpacing: 4,
+                barColor: '#5969ff'
+
+            });
+
+            
+        }
+
+
+        if ($('#sparkline2').length) {
+            $("#sparkline2").sparkline([5, 6, 7, 9, 8, 5, 3, 2, 2, 4, 6, 5, 5, 6, 3, 4, 9, 5, 2, 3], {
+            

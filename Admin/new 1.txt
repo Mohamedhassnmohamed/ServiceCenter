@@ -1,0 +1,26 @@
+include_once("dbconec.php");
+
+	$sql = "SELECT * from check_form where id='$eid'";
+
+if($result=mysqli_query($conn,$sql)){
+
+
+
+										$row = mysqli_fetch_array($result);
+										
+										$name=$row["name"];
+$job=$row["job"];
+$job_place=$row["job_place"];
+$phone=$row["phone"];
+$faculty=$row["faculty"];
+$quesm=$row["quesm"];
+$shoaba=$row["shoaba"];
+$specilisation=$row["specilisation"];
+$email=$row["email"];
+$academic_year=$row["academic_year"];
+$supervisor=$row["supervisor"];
+$Co_supervisor=$row["Co_supervisor"];
+$message_title=$row["message_title"];
+$Broad_topic=$row["Broad_topic"];
+$keyWords=$row["keyWords"];
+$date=$row["date"];    
